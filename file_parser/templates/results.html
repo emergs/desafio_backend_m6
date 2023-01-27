@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados</title>
+</head>
+<body>
+    <ul>
+        {% for op in operacoes %}
+        <li>Tipo: <p>{{op.tipo}}</p></li>
+        <li>Data: <p>{{op.data}}</p></li>
+        <li>Valor: <p>R$ {{op.valor}},00</p></li>
+        <li>CPF: <p>{{op.cpf}}</p></li>
+        <li>Hora: <p>{{op.hora}}</p></li>
+        <li>Dono: <p>{{op.dono}}</p></li>
+        <li>Loja: <p>{{op.loja}}</p></li>
+        {% endfor %}
+    </ul>
+    <h1>Saldo total: R$ {{saldo_total}},00</h1>
+</body>
+</html>
