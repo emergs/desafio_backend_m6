@@ -1,4 +1,12 @@
-# Desafio Back-End
+# Desafio Back-End M6
+
+A aplicação tem como principal função interpretar um arquivo recebido, normalizar os dados e salvar as informação em um banco de dados relacional.
+
+## Tecnologias utilizadas
+
+- Python
+- Django Rest Framework
+- SQLite3
 
 ## Instruções para utilização
 
